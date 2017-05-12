@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>第八课，实战布局</title>
+</head>
+<style>
+	#container{
+		width: 1000px;
+		background: gray;
+	}
+	#header{
+		height: 120px;
+		background: red;
+	}
+	#main{
+		height: 600px;
+		background: green;
+	}
+	
+	#lside{
+		height: 600px;
+		width: 700px;
+		float: left;
+		background: pink;
+	}
+	.four{
+		width: 330px;
+		height: 280px;
+		background: purple;
+		float: left;
+		margin: 10px;
+	}
+	#rside{
+		height: 600px;
+		width: 300px;
+		float: left;
+		background: black;
+
+	}
+	#footer{
+		height: 200px;
+		background: yellow;
+	}
+</style>
+<body>
+	<div id="container">
+		<div id="header"></div>
+		<div id="main">
+			<div id="lside">
+				<div class="four"></div>
+				<div class="four"></div>
+				<div class="four"></div>
+				<div class="four"></div>
+			</div>
+			<div id="rside"></div>
+		</div>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>
